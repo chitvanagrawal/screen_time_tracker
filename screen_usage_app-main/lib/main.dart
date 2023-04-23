@@ -61,7 +61,7 @@ class _MainScreenState extends State<MainScreen> {
       Duration(seconds: notificationTimerDurationSec),
       () => showNotification());
   var flp = FlutterLocalNotificationsPlugin();
-  int notificationTimerDurationSec = 10;
+  int notificationTimerDurationSec = 100;
 
   @override
   void initState() {
@@ -208,7 +208,7 @@ class _MainScreenState extends State<MainScreen> {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: Colors.grey,
+              color: Colors.blue,
               borderRadius: BorderRadius.circular(20),
             ),
             child: Text(
