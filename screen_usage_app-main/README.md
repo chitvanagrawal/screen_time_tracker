@@ -1,10 +1,6 @@
-# Screen Usage Tracker
-
-A Flutter project to keep track of user's screen usage time.
-
-![Alt text](/Screenshot.png?raw=true "Screenshot")
-
-## Used Flutter Libraries
-* [screen_state](https://pub.dev/packages/screen_state)
-* [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
-* [pausable_timer](https://pub.dev/packages/pausable_timer)
+# Screen Time Tracker
+This is a flutter app used to track the active usage time.
+This is a minimal app that uses the 3 basic packages
+1)pausible timer(to make the timer)
+2)screen state
+3)local notification
