@@ -9,7 +9,7 @@ void main() async {
   runApp(const MyApp());
   final androidConfig = FlutterBackgroundAndroidConfig(
     notificationTitle: "Screen Usage App",
-    notificationText: "I'm still running to keep track of your screen usage!",
+    notificationText: "You are still using your phone!",
     notificationImportance: AndroidNotificationImportance.Default,
     notificationIcon: AndroidResource(
         name: 'background_icon',
